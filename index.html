@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sourcestyle.css">
+</head>
+<body>
+   
+<div class="wrapper">
+    <a class="cta" href="#" >
+            <span onclick="pageNavigate()" >Play>></span>
+    </a>
+  </div>
+
+ <script>
+   function pageNavigate(){
+     window.location="SNAKE.html";
+     document.write("Redirecting you to game...");
+     setTimeout("pageNavigate()",2000);
+   }
+   
+ </script>
+
+</body>
+</html>

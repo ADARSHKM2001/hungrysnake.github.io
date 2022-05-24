@@ -1,1 +1,1 @@
-# hungrysnake.github.io
+# HungrySnake
